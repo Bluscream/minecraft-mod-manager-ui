@@ -13,4 +13,9 @@ C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\ob
 C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.dll
 C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.pdb
 C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.genruntimeconfig.cache
-C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft_Mod_Manager_UI.MainForm.resources
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\MMMUI.MainForm.resources
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Microsoft.WindowsAPICodePack.ShellExtensions.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.csproj.CopyComplete

@@ -1,28 +1,51 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
+﻿using Bluscream;
+using MMMUI.wrappers;
+using System;
+using System.IO;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Minecraft_Mod_Manager_UI
-{
-    public partial class MainForm : Form
-    {
-        public MainForm()
-        {
+namespace MMMUI {
+    public partial class MainForm : Form {
+        MinecraftModManager wrapper;
+        DirectoryInfo modDir;
+        string mcVersion;
+
+        public MainForm() {
             InitializeComponent();
         }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-            Assembly assembly = Assembly.GetExecutingAssembly();
-            var attribute = assembly.GetCustomAttribute<AssemblyCompanyAttribute>();
-            Text = $"Minecraft Mod Manager v{1.0} by {"author"} (GUI v{Application.ProductVersion} by {attribute?.Company})";
+        private void MainForm_Load(object sender, EventArgs e) {
+            wrapper = new MinecraftModManager();
+
+            var assembly = new FileInfo(Assembly.GetExecutingAssembly().Location);
+            Text = $"Minecraft Mod Manager v{wrapper.mmmFile.GetVersion()} by {wrapper.mmmFile.GetAuthor()} (GUI v{assembly.GetVersion()} by {assembly.GetAuthor()})";
+        }
+
+        private void reloadToolStripMenuItem_Click(object sender, EventArgs e) => loadMods();
+        private void loadMods() {
+            if (modDir is null || !modDir.Exists) {
+                modDir = askForModDir();
+            }
+            var mods = wrapper.GetMods(modDir);
+            foreach (var mod in mods) {
+                mod_table.Items.Add(new ListViewItem(mod.name));
+            }
+        }
+
+        private DirectoryInfo askForModDir() {
+            using (var fbd = new FolderBrowserDialog()) {
+                fbd.Description = "Select mods directory";
+                fbd.RootFolder = Environment.SpecialFolder.MyComputer;
+                DialogResult result = fbd.ShowDialog();
+                if (result == DialogResult.OK && Directory.Exists(fbd.SelectedPath)) {
+                    return new DirectoryInfo(fbd.SelectedPath);
+                } else if (result.isFalse()) {
+                    return Utils.Exit();
+                }
+            }
+            askForModDir();
+            return null;
         }
     }
 }

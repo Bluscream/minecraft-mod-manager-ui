@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Minecraft_Mod_Manager_UI</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
@@ -9,5 +9,11 @@
     <Copyright>Bluscream 2022</Copyright>
     <PackageProjectUrl>https://github.com/Bluscream/minecraft-mod-manager-gui</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Core" Version="1.1.0.2" />
+    <PackageReference Include="Microsoft.WindowsAPICodePack-Shell" Version="1.1.0" />
+    <PackageReference Include="NLog" Version="5.0.1" />
+  </ItemGroup>
 
 </Project>
