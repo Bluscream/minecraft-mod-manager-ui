@@ -1,0 +1,16 @@
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.exe
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.deps.json
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.runtimeconfig.json
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.runtimeconfig.dev.json
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\bin\Debug\netcoreapp3.1\Minecraft Mod Manager UI.pdb
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.csproj.AssemblyReference.cache
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.csproj.GenerateResource.cache
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.AssemblyInfoInputs.cache
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.AssemblyInfo.cs
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.csproj.CoreCompileInputs.cache
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.dll
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.pdb
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft Mod Manager UI.genruntimeconfig.cache
+C:\Users\blusc\source\repos\Minecraft Mod Manager UI\Minecraft Mod Manager UI\obj\Debug\netcoreapp3.1\Minecraft_Mod_Manager_UI.MainForm.resources

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Minecraft Mod Manager UI/1.0.0": {
+        "runtime": {
+          "Minecraft Mod Manager UI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Minecraft Mod Manager UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
